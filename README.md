@@ -48,7 +48,7 @@ This project addresses key business challenges by enabling:
 
 ---
 
-## Dataset Summary
+## 📂 Dataset Summary
 
 - 1,00,000+ Banking Transactions
 - 88,000+ Customers
