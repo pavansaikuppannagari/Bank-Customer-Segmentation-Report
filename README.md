@@ -187,9 +187,7 @@ Data Analyst | Power BI Developer | Data Science Enthusiast
 
 📧 pavansaikuppannagari@gmail.com
 
-🔗 LinkedIn: [Your LinkedIn URL]
-
-🔗 GitHub: [Your GitHub URL]
+🔗 LinkedIn: [https://www.linkedin.com/in/pavansaikuppannagari/]
 
 ---
 
