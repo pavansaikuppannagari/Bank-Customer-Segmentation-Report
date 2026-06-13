@@ -1,249 +1,394 @@
 # 🏦 Bank Customer Segmentation & Transaction Analytics Dashboard
+
 ## 📌 Project Overview
 
-This project focuses on analyzing banking customer transaction data using Power BI to uncover customer behavior, transaction trends, customer segmentation insights, and risk indicators.
+This project is an end-to-end **Power BI Business Intelligence solution** developed using a banking transaction dataset. The dashboard provides actionable insights into customer demographics, transaction behavior, customer segmentation, and profitability & risk assessment.
 
-The solution transforms raw banking transaction data into an interactive business intelligence dashboard that helps stakeholders understand customer demographics, monitor transaction patterns, identify valuable customer segments, and assess customer risk levels.
+The solution transforms raw banking transaction data into interactive dashboards that help stakeholders understand customer behavior, identify valuable customer segments, monitor risk levels, and support data-driven decision-making.
 
-The project consists of 4 interactive dashboard pages, advanced DAX calculations, RFM Customer Segmentation, and Row-Level Security (RLS) implementation for regional access control.
+Additionally, **Row-Level Security (RLS)** has been implemented to enable region-specific access for **Chennai** and **Mumbai** users, simulating real-world enterprise reporting scenarios.
 
-### 🎯 Business Objective
+---
 
-Banks generate large volumes of transaction data every day. Extracting meaningful insights from this data can help:
+## 🎯 Business Problem
 
-Improve customer targeting
-Understand customer demographics
-Monitor transaction behavior
-Identify high-value customers
-Detect high-risk customer segments
-Support data-driven business decisions
-Enable secure region-based reporting
+Banks handle millions of transactions and customer records daily. Analyzing this data manually is difficult and time-consuming.
 
-This dashboard was designed to address these business requirements through interactive visual analytics.
+This project addresses the following business needs:
 
-### 🛠️ Tools & Technologies Used
-Tool	Purpose
-Power BI Desktop	Dashboard Development
-Power Query	Data Cleaning & Transformation
-DAX	KPI Calculations & Measures
-CSV Dataset	Data Source
-Data Modeling	Relationship Building
-RFM Analysis	Customer Segmentation
-Row-Level Security (RLS)	Data Access Control
+- Understand customer demographics and distribution.
+- Analyze transaction trends and spending behavior.
+- Identify loyal, new, normal, and lost customers.
+- Assess customer profitability and risk levels.
+- Enable secure access to region-specific reports.
+- Support strategic decision-making through interactive visualizations.
 
-### 📂 Dataset Information
-The dataset contains customer banking transaction records with the following attributes:
-Transaction ID
-Customer ID
-Customer DOB
-Gender
-Location
-Account Balance
-Transaction Date
-Transaction Time
-Transaction Amount (INR)
+---
 
-### 📊 Dashboard Structure
-#### 1️⃣ Customer Demographics Overview
-This dashboard provides insights into customer distribution and demographic patterns.
+## 🛠️ Tools & Technologies
 
-Key KPIs
-Total Customers
-Average Customer Age
-Total Unique Locations
-Dominant Gender
-Visualizations
-Customer Distribution by Gender
-Customer Distribution by Age Group
-Top Customer Locations
-Gender Distribution across Age Groups
-Customer Detail Table
-Interactive Slicers
-Business Insights
-Understand customer demographics.
-Identify dominant customer groups.
-Analyze customer concentration by region.
+| Technology | Purpose |
+|------------|----------|
+| Power BI Desktop | Dashboard Development |
+| Power Query | Data Cleaning & Transformation |
+| DAX | KPI & Business Calculations |
+| CSV Dataset | Data Source |
+| Data Modeling | Relationship Management |
+| RFM Analysis | Customer Segmentation |
+| Row-Level Security (RLS) | Data Access Control |
 
-#### 2️⃣ Transaction Behavior Insights
-This dashboard analyzes customer transaction patterns and banking activity.
+---
 
-Key KPIs
-Total Transaction Volume
-Average Transaction Amount
-Highest Transaction Amount
-Average Account Balance
-Visualizations
-Daily Transaction Volume Trend
-Transactions by Day of Week
-Transaction Activity by Hour
-Transaction Amount by Age Group
-Transaction Detail Analysis
-Business Insights
-Identify peak transaction periods.
-Understand spending behavior.
-Analyze transaction frequency patterns.
-Discover customer activity trends.
+## 📂 Dataset Information
 
-#### 3️⃣ Customer Segmentation Analysis
-Implemented RFM (Recency, Frequency, Monetary) Analysis to classify customers into meaningful business segments.
+The dataset contains customer banking transaction records with the following fields:
 
-Customer Segments
-Loyal Customers
-New Customers
-Normal Customers
-Lost Customers
-Key KPIs
-Loyal Customer Count
-Lost Customer Count
-New Customer Revenue
-Highest Frequency Segment
-Visualizations
-Customer Distribution by Segment
-Revenue Contribution by Segment
-Average Revenue per Customer
-RFM Score Distribution
-Segment-wise Age Analysis
-Business Insights
-Identify valuable customers.
-Detect customer churn risk.
-Evaluate customer engagement levels.
-Understand revenue contribution across segments.
+| Column Name | Description |
+|-------------|-------------|
+| TransactionID | Unique transaction identifier |
+| CustomerID | Unique customer identifier |
+| CustomerDOB | Customer date of birth |
+| CustGender | Customer gender |
+| CustLocation | Customer location |
+| CustAccountBalance | Customer account balance |
+| TransactionDate | Transaction date |
+| TransactionTime | Transaction time |
+| TransactionAmount (INR) | Transaction amount |
 
-#### 4️⃣ Profitability & Risk Indicators
-This dashboard focuses on customer profitability and risk assessment.
+---
 
-Key KPIs
-Total Revenue Generated
-Average Credit Score
-High-Risk Customer Count
-Total Monetary Value
-Visualizations
-Credit Score Distribution
-Risk Level Distribution
-Segment-wise Credit Score Analysis
-Account Balance vs Risk Level
-Value Score Comparison
-Top High-Revenue High-Risk Customers
-Risk Categories
-Low Risk
-Medium Risk
-High Risk
-Critical Risk
-Business Insights
-Identify risky customers.
-Monitor profitability.
-Support risk-based decision-making.
-Analyze customer value and risk together.
+# 📊 Dashboard Pages
 
-### 🔒 Row-Level Security (RLS)
-To simulate real-world enterprise reporting, Row-Level Security (RLS) was implemented.
+## 1️⃣ Customer Demographics Overview
 
-Regions Configured
-Chennai
-Mumbai
-Purpose
+### Objective
+Analyze customer distribution based on age, gender, and location.
 
-RLS ensures users can only view data relevant to their assigned region.
+### KPIs
 
-Example
-User Role	Accessible Data
-Chennai Manager	Chennai Customers Only
-Mumbai Manager	Mumbai Customers Only
-Business Value
-Improves data security.
-Restricts unauthorized access.
-Enables region-specific reporting.
-Mimics enterprise-grade Power BI solutions.
-📈 Key Power BI Features Implemented
-Data Transformation
-Data Cleaning
-Null Handling
-Data Type Conversion
-Date & Time Formatting
-Data Modeling
-Relationships
-Star Schema Principles
-Calculated Columns
-DAX Measures
+- Total Customers
+- Average Customer Age
+- Unique Locations
+- Dominant Gender
 
-Examples:
+### Visualizations
 
-Total Customers
-Average Age
-Total Transaction Volume
-Average Transaction Amount
-RFM Scores
-Revenue Measures
-Risk Classification Measures
-Value Score Calculations
-Interactive Features
-Slicers
-Drill-through Analysis
-Dynamic Filtering
-Cross Filtering
-KPI Cards
-Tables & Matrix Visuals
+- Customer Distribution by Gender
+- Customer Distribution by Age Group
+- Top Customer Locations
+- Gender Distribution Across Age Groups
+- Customer Details Table
+- Dynamic Slicers
 
-### 📌 Business Outcomes
-This project enables stakeholders to:
+### Insights Generated
 
-✔ Understand customer demographics
+- Identification of dominant customer demographics.
+- Understanding of customer concentration by region.
+- Age and gender distribution analysis.
 
-✔ Analyze transaction behavior
+---
 
-✔ Segment customers using RFM analysis
+## 2️⃣ Transaction Behavior Insights
 
-✔ Identify loyal and lost customers
+### Objective
+Analyze customer transaction patterns and financial activity.
 
-✔ Detect high-risk customer groups
+### KPIs
 
-✔ Evaluate profitability metrics
+- Total Transaction Volume
+- Average Transaction Amount
+- Highest Transaction Amount
+- Average Account Balance
 
-✔ Access region-specific data securely using RLS
+### Visualizations
 
-✔ Make informed business decisions through interactive dashboards
+- Transaction Volume Trend
+- Transactions by Day of Week
+- Transaction Activity by Hour
+- Transaction Amount by Age Group
+- Detailed Transaction Analysis
 
-### 🚀 Learning Outcomes
+### Insights Generated
+
+- Peak transaction days and hours.
+- Customer spending behavior.
+- Transaction frequency trends.
+- Age-based transaction analysis.
+
+---
+
+## 3️⃣ Customer Segmentation Analysis
+
+### Objective
+Segment customers using **RFM Analysis (Recency, Frequency, Monetary)**.
+
+### Customer Segments
+
+- Loyal Customers
+- New Customers
+- Normal Customers
+- Lost Customers
+
+### KPIs
+
+- Loyal Customer Count
+- Lost Customer Count
+- New Customer Revenue
+- Highest Frequency Segment
+
+### Visualizations
+
+- Customer Distribution by Segment
+- Revenue by Segment
+- Average Revenue per Customer
+- RFM Score Analysis
+- Age Group Distribution by Segment
+
+### Insights Generated
+
+- Identification of high-value customers.
+- Customer retention analysis.
+- Revenue contribution by segment.
+- Customer lifecycle evaluation.
+
+---
+
+## 4️⃣ Profitability & Risk Indicators
+
+### Objective
+Evaluate customer profitability and risk profiles.
+
+### KPIs
+
+- Total Revenue Generated
+- Average Credit Score
+- High-Risk Customer Count
+- Total Monetary Value
+
+### Visualizations
+
+- Credit Score Distribution
+- Risk Level Analysis
+- Credit Score by Customer Segment
+- Account Balance vs Risk Level
+- Value Score Comparison
+- Top High-Revenue High-Risk Customers
+
+### Risk Categories
+
+- Low Risk
+- Medium Risk
+- High Risk
+- Critical Risk
+
+### Insights Generated
+
+- Identification of risky customers.
+- Customer profitability analysis.
+- Relationship between risk and account balance.
+- High-value customer monitoring.
+
+---
+
+# 🔍 Customer Segmentation Methodology
+
+The project uses **RFM (Recency, Frequency, Monetary) Analysis** for customer segmentation.
+
+### Recency (R)
+
+Measures how recently a customer made a transaction.
+
+### Frequency (F)
+
+Measures how often a customer transacts.
+
+### Monetary (M)
+
+Measures the total value generated by the customer.
+
+### Segments Created
+
+| Segment | Description |
+|----------|------------|
+| Loyal Customers | Frequent and high-value customers |
+| New Customers | Recently acquired customers |
+| Normal Customers | Average engagement customers |
+| Lost Customers | Inactive or churned customers |
+
+---
+
+# 🔒 Row-Level Security (RLS)
+
+To simulate enterprise-level reporting, Row-Level Security was implemented.
+
+## Configured Regions
+
+- Chennai
+- Mumbai
+
+## Purpose
+
+RLS restricts data visibility based on user roles.
+
+### Example
+
+| User Role | Accessible Data |
+|------------|----------------|
+| Chennai Manager | Chennai Region Data |
+| Mumbai Manager | Mumbai Region Data |
+
+### Business Benefits
+
+- Improved data security.
+- Controlled access to sensitive information.
+- Region-specific reporting.
+- Enterprise-grade governance implementation.
+
+---
+
+# 📈 Power BI Features Implemented
+
+## Data Preparation
+
+- Data Cleaning
+- Data Transformation
+- Null Value Handling
+- Date & Time Formatting
+
+## Data Modeling
+
+- Relationship Creation
+- Star Schema Principles
+- Calculated Columns
+
+## DAX Measures
+
+Developed measures for:
+
+- Total Customers
+- Average Age
+- Transaction Volume
+- Average Transaction Amount
+- Revenue Metrics
+- RFM Scores
+- Credit Scores
+- Risk Classification
+- Value Scores
+
+## Interactive Features
+
+- KPI Cards
+- Slicers
+- Cross Filtering
+- Drill-through Analysis
+- Tables & Matrix Visuals
+- Dynamic Filtering
+
+---
+
+# 📊 Key Business Outcomes
+
+✔ Customer demographic analysis
+
+✔ Transaction behavior monitoring
+
+✔ Customer segmentation using RFM
+
+✔ Risk assessment and profitability evaluation
+
+✔ Revenue contribution analysis
+
+✔ Customer retention insights
+
+✔ Region-based secured reporting through RLS
+
+✔ Interactive and self-service analytics
+
+---
+
+# 🚀 Skills Demonstrated
+
+### Power BI
+
+- Dashboard Development
+- Data Modeling
+- Report Design
+- Data Visualization
+
+### DAX
+
+- Calculated Columns
+- Measures
+- KPIs
+- Business Logic
+
+### Data Analytics
+
+- Customer Segmentation
+- Behavioral Analysis
+- Risk Analytics
+- Business Intelligence
+
+### Data Management
+
+- Power Query
+- ETL Processes
+- Data Cleaning
+- Data Transformation
+
+### Security
+
+- Row-Level Security (RLS)
+- Role-Based Access Control
+
+---
+
+# 📚 Learning Outcomes
+
 Through this project, I gained hands-on experience in:
 
-Power BI Dashboard Development
-Power Query ETL Processes
-DAX Calculations
-Data Modeling
-RFM Customer Segmentation
-Business Intelligence Reporting
-Data Storytelling
-Row-Level Security (RLS)
-Banking Domain Analytics
+- End-to-End Power BI Development
+- Data Cleaning & Transformation
+- DAX Measure Creation
+- Customer Segmentation using RFM Analysis
+- Banking Domain Analytics
+- Dashboard Design & Storytelling
+- Data Modeling Techniques
+- Row-Level Security (RLS) Implementation
+- Business Intelligence Reporting
 
-### 👨‍💻 Author
-Pavan Sai Kuppannagari
+---
 
-Aspiring Data Analyst | Power BI Developer | SQL Enthusiast
+# 🏆 Project Highlights
 
-Skills
-Power BI
-SQL
-Python
-DAX
-Data Visualization
-Data Analytics
-Business Intelligence
+- 📌 4 Interactive Dashboard Pages
+- 📌 Banking Domain Analytics Project
+- 📌 Customer Segmentation using RFM Analysis
+- 📌 Advanced DAX Measures
+- 📌 Interactive Visualizations
+- 📌 Profitability & Risk Analysis
+- 📌 Row-Level Security (RLS)
+- 📌 Real-World Business Use Case
+- 📌 Portfolio-Ready Data Analytics Project
 
-### ⭐ Project Highlights
-✅ 4 Interactive Dashboard Pages
+---
 
-✅ Banking Domain Analytics
+## 👨‍💻 Author
 
-✅ RFM Customer Segmentation
+### Pavan Sai Kuppannagari
 
-✅ Advanced DAX Measures
+**Aspiring Data Analyst | Power BI Developer | Data Science Enthusiast**
 
-✅ Row-Level Security (RLS)
+### Skills
 
-✅ End-to-End Power BI Solution
+- SQL
+- Power BI
+- DAX
+- Python
+- Data Visualization
+- Data Analytics
+- Machine Learning
 
-✅ Portfolio-Ready Data Analytics Project
+---
 
-
-Domain: Banking & Financial Analytics
+### ⭐ If you found this project insightful, feel free to connect and share your feedback!
