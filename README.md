@@ -224,7 +224,7 @@ To simulate enterprise-level reporting, Row-Level Security was implemented.
 ## Configured Regions
 
 - Chennai
-- Mumbai
+- Tamil Nadu
 
 ## Purpose
 
@@ -234,8 +234,8 @@ RLS restricts data visibility based on user roles.
 
 | User Role | Accessible Data |
 |------------|----------------|
-| Chennai Manager | Chennai Region Data |
-| Mumbai Manager | Mumbai Region Data |
+| Chennai Manager | Chennai Branch Data |
+| Tamil Nadu Manager | Tamil Nadu Region Data |
 
 ### Business Benefits
 
