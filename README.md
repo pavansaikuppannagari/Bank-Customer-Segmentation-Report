@@ -198,7 +198,7 @@ Evaluate customer profitability and risk profiles.
 - High-value customer monitoring.
 
 ### Screenshot / Demo
-Dashboard: ![Report - 4](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Probability_&_Risk_Indicators.png)
+Dashboard: ![Report - 4](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Profitability_&_Risk_Indicators.png)
 
 ---
 
