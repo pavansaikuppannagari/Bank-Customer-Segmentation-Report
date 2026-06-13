@@ -87,7 +87,7 @@ Analyze customer distribution based on age, gender, and location.
 - Age and gender distribution analysis.
 
 ### Screenshot / Demo
-Example: (https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Demographics.png)
+Dashboard: ![Report - 1](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Demographics.png)
 
 ---
 
