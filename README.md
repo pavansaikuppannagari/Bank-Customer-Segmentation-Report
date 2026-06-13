@@ -86,6 +86,9 @@ Analyze customer distribution based on age, gender, and location.
 - Understanding of customer concentration by region.
 - Age and gender distribution analysis.
 
+### Screenshot / Demo
+Example: 
+
 ---
 
 ## 2️⃣ Transaction Behavior Insights
