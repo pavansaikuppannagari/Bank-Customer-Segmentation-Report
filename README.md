@@ -87,7 +87,7 @@ Analyze customer distribution based on age, gender, and location.
 - Age and gender distribution analysis.
 
 ### Screenshot / Demo
-Dashboard: ![Report - 1](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Demographics.png)
+Dashboard - View: ![Report - 1](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Demographics.png)
 
 ---
 
@@ -119,7 +119,7 @@ Analyze customer transaction patterns and financial activity.
 - Age-based transaction analysis.
 
 ### Screenshot / Demo
-Dashboard: ![Report - 2](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Transaction_Behaviour.png)
+Dashboard - View: ![Report - 2](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Transaction_Behaviour.png)
 
 ---
 
@@ -158,7 +158,7 @@ Segment customers using **RFM Analysis (Recency, Frequency, Monetary)**.
 - Customer lifecycle evaluation.
 
 ### Screenshot / Demo
-Dashboard: ![Report - 3](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Segmentation.png)
+Dashboard - View: ![Report - 3](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Segmentation.png)
 
 ---
 
@@ -198,7 +198,7 @@ Evaluate customer profitability and risk profiles.
 - High-value customer monitoring.
 
 ### Screenshot / Demo
-Dashboard: ![Report - 4](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Profitability_&_Risk_Indicators.png)
+Dashboard - View: ![Report - 4](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Profitability%20%26%20Risk%20Indicators.png)
 
 ---
 
