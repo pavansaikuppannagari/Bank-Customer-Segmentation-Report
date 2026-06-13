@@ -118,6 +118,9 @@ Analyze customer transaction patterns and financial activity.
 - Transaction frequency trends.
 - Age-based transaction analysis.
 
+### Screenshot / Demo
+Dashboard: ![Report - 2](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Transaction_Behaviour.png)
+
 ---
 
 ## 3️⃣ Customer Segmentation Analysis
@@ -153,6 +156,9 @@ Segment customers using **RFM Analysis (Recency, Frequency, Monetary)**.
 - Customer retention analysis.
 - Revenue contribution by segment.
 - Customer lifecycle evaluation.
+
+### Screenshot / Demo
+Dashboard: ![Report - 3](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Segmentation.png)
 
 ---
 
@@ -190,6 +196,9 @@ Evaluate customer profitability and risk profiles.
 - Customer profitability analysis.
 - Relationship between risk and account balance.
 - High-value customer monitoring.
+
+### Screenshot / Demo
+Dashboard: ![Report - 4](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Probability_&_Risk_Indicators.png)
 
 ---
 
