@@ -48,6 +48,15 @@ This project addresses key business challenges by enabling:
 
 ---
 
+## Dataset Summary
+
+- 1,00,000+ Banking Transactions
+- 88,000+ Customers
+- Multiple Geographic Locations
+- Customer Demographics & Transaction Data
+
+---
+
 ## 🏗️ Solution Architecture
 
 ```text
@@ -70,73 +79,146 @@ Business Insights & Decision Making
 
 ## 📊 Dashboard Overview
 
-### 1️⃣ Customer Demographics Dashboard
+## 1️⃣ Customer Demographics Overview
 
-**Objective:** Analyze customer distribution across age, gender, and location.
+### Objective
+Analyze customer distribution based on age, gender, and location.
 
-#### Key Insights
-- Customer distribution by age and gender
-- Location-wise customer concentration
-- Demographic trend analysis
-- Customer profile evaluation
+### KPIs
 
-📷 Dashboard Preview
+- Total Customers
+- Average Customer Age
+- Unique Locations
+- Dominant Gender
 
-![Customer Demographics Dashboard](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Demographics.png)
+### Visualizations
+
+- Customer Distribution by Gender
+- Customer Distribution by Age Group
+- Top Customer Locations
+- Gender Distribution Across Age Groups
+- Customer Details Table
+- Dynamic Slicers
+
+### Insights Generated
+
+- Identification of dominant customer demographics.
+- Understanding of customer concentration by region.
+- Age and gender distribution analysis.
+
+### Dashboard
+![Dashboard-View](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Demographics.png)
 
 ---
 
-### 2️⃣ Transaction Behavior Dashboard
+## 2️⃣ Transaction Behavior Insights
 
-**Objective:** Analyze customer transaction activity and spending behavior.
+### Objective
+Analyze customer transaction patterns and financial activity.
 
-#### Key Insights
-- Transaction volume trends
-- Spending pattern analysis
-- Peak transaction periods
-- Account balance monitoring
+### KPIs
 
-📷 Dashboard Preview
+- Total Transaction Volume
+- Average Transaction Amount
+- Highest Transaction Amount
+- Average Account Balance
 
-![Transaction Analytics Dashboard](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Transaction_Behaviour.png)
+### Visualizations
+
+- Transaction Volume Trend
+- Transactions by Day of Week
+- Transaction Activity by Hour
+- Transaction Amount by Age Group
+- Detailed Transaction Analysis
+
+### Insights Generated
+
+- Peak transaction days and hours.
+- Customer spending behavior.
+- Transaction frequency trends.
+- Age-based transaction analysis.
+
+### Dashboard
+![Dashboard-View](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Transaction_Behaviour.png)
 
 ---
 
-### 3️⃣ Customer Segmentation Dashboard
+## 3️⃣ Customer Segmentation Analysis
 
-**Objective:** Segment customers using RFM Analysis.
+### Objective
+Segment customers using **RFM Analysis (Recency, Frequency, Monetary)**.
 
-#### Customer Segments
+### Customer Segments
+
 - Loyal Customers
 - New Customers
 - Normal Customers
 - Lost Customers
 
-#### Key Insights
-- High-value customer identification
-- Revenue contribution analysis
-- Customer retention opportunities
-- Customer lifecycle evaluation
+### KPIs
 
-📷 Dashboard Preview
+- Loyal Customer Count
+- Lost Customer Count
+- New Customer Revenue
+- Highest Frequency Segment
 
-![Customer Segmentation Dashboard](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Segmentation.png)
+### Visualizations
+
+- Customer Distribution by Segment
+- Revenue by Segment
+- Average Revenue per Customer
+- RFM Score Analysis
+- Age Group Distribution by Segment
+
+### Insights Generated
+
+- Identification of high-value customers.
+- Customer retention analysis.
+- Revenue contribution by segment.
+- Customer lifecycle evaluation.
+
+### Dashboard
+![Dashboard-View](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Customer_Segmentation.png)
 
 ---
 
-### 4️⃣ Profitability & Risk Dashboard
+## 4️⃣ Profitability & Risk Indicators
 
-**Objective:** Evaluate customer profitability and risk indicators.
+### Objective
+Evaluate customer profitability and risk profiles.
 
-#### Key Insights
-- Customer profitability analysis
-- Risk-level classification
-- Credit score evaluation
-- High-value customer monitoring
+### KPIs
 
-📷 Dashboard Preview
+- Total Revenue Generated
+- Average Credit Score
+- High-Risk Customer Count
+- Total Monetary Value
 
-![Profitability & Risk Dashboard](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Profitability%20%26%20Risk%20Indicators.png)
+### Visualizations
+
+- Credit Score Distribution
+- Risk Level Analysis
+- Credit Score by Customer Segment
+- Account Balance vs Risk Level
+- Value Score Comparison
+- Top High-Revenue High-Risk Customers
+
+### Risk Categories
+
+- Low Risk
+- Medium Risk
+- High Risk
+- Critical Risk
+
+### Insights Generated
+
+- Identification of risky customers.
+- Customer profitability analysis.
+- Relationship between risk and account balance.
+- High-value customer monitoring.
+
+### Dashboard
+![Dashboard-View](https://github.com/pavansaikuppannagari/Bank-Customer-Segmentation-Report/blob/main/Profitability%20%26%20Risk%20Indicators.png)
 
 ---
 
