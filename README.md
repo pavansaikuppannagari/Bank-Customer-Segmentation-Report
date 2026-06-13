@@ -6,7 +6,7 @@ This project is an end-to-end **Power BI Business Intelligence solution** develo
 
 The solution transforms raw banking transaction data into interactive dashboards that help stakeholders understand customer behavior, identify valuable customer segments, monitor risk levels, and support data-driven decision-making.
 
-Additionally, **Row-Level Security (RLS)** has been implemented to enable region-specific access for **Chennai** and **Mumbai** users, simulating real-world enterprise reporting scenarios.
+Additionally, **Row-Level Security (RLS)** has been implemented to enable region-specific access for **Chennai Branch** and **Tamil Nadu Region** users, simulating real-world enterprise reporting scenarios.
 
 ---
 
